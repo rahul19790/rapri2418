@@ -22,6 +22,8 @@ public static WebDriver driver = null;
 	@AfterTest
 	public void tearoff()
 	{
-		driver.close();
+		driver.close(); 
+
 	}
 }
+
